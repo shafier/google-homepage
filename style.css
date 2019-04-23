@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(236, 241, 241, 0);
+}
+
+footer {
+    background-color: #DBE9EE;
+    text-align: center;
+    height: 100px;
+  }
+
+  main p {
+    padding: 20px;
+    /* background properties */
+    background-color: rgba(16, 25, 27, 0.315);
+  }
+
+    .GoogleImage {
+    align-items: center;
+}
+
+  .SBox {
+     border-radius: 20px; 
+     border-style: dashed;
+  }
+
+  .box {
+      display: inline;
+      align-items: center;
+      justify-content: center;
+  }
+
