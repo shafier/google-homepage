@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Shafie Rahim">
-        <meta name="description" content="Odin Project on HTML/CSS, task: Easy">
-        <title>Shafie´s Google</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Shafie Rahim" />
+    <meta name="description" content="Odin Project on HTML/CSS, task: Easy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shafie´s Google</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <main>
         <nav>
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
+                <li><a href="#Images">Images</a></li>
+                <li><a href="#Gmail">Gmail</a></li>
             </ul>
         </nav>
-        <main>
+        <section>
             <div class="GoogleImage">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="120" height="90" alt="Google Logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                    width="300" height="100" alt="Google Logo">
             </div>
-            <div class="SBox">
+            <div class="SearchBox">
                 <form>
-                    <input type="text" name="SrcText">
+                    <input type="search" name="SrcText">
                 </form>
             </div>
-            <div class="box">
-                <a>Google Search</a>
-                <a>I´m Feeling Lucky</a>
+            <div class="SmallBoxes">
+                <a href="#GoogSrc">Google Search</a>
+                <a href="#Lucky">I´m Feeling Lucky</a>
             </div>
-        </main>
+            <article>
+                <p>Google offered in: Bahasa Melayu, English, Español, and Deutsche</p>
+            </article>
+        </section>
         <footer>
-            <p>Spain</p>
-            <p>Advertising</p>
-        </footer>    
-    </body>
+            <div class="Country">Spain</div>
+            <div id="GoogleSuff01">
+                <ul>
+                    <li class="left"><a href="#Adv">Advertising</a></li>
+                    <li class="left"><a href="#Bus">Business</a></li>
+                    <li class="left"><a href="#Abt">About</a></li>
+                    <li class="right"><a href="#Priv">Privacy</a></li>
+                    <li clsas="right"><a href="#Term">Terms</a></li>
+                    <li class="right"><a href="#Sett">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+
 </html>

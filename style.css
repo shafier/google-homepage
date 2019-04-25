@@ -1,31 +1,144 @@
+/* except where stated, all info come from W3 school or Odin Project */
+
+* {
+  box-sizing: border-box;
+} 
+
+main {
+  position: relative;
+  min-height: 100vh; 
+  /* https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c */
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding-bottom: 5rem; /* Footer height */
+  /* https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c */
+}
+
 body {
   background-color: rgba(236, 241, 241, 0);
+  font-family: Arial;
 }
 
-footer {
-    background-color: #DBE9EE;
+ nav ul {
+  overflow: hidden;
+  list-style-type: none;
+  /* https://wearefieldtrip.com/journal/css-horizontal-navigation-bar/ */
+  margin: 0;
+  padding: 0;  
+}
+
+nav ul li {
+  float: right;
+  margin: 0;
+ 
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: rgb(14, 37, 53);
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+.GoogleImage {
     text-align: center;
-    height: 100px;
-  }
-
-  main p {
-    padding: 20px;
-    /* background properties */
-    background-color: rgba(16, 25, 27, 0.315);
-  }
-
-    .GoogleImage {
-    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
-  .SBox {
-     border-radius: 20px; 
-     border-style: dashed;
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.SearchBox {
+    text-align: center;
+    height: 30px;
+    margin-bottom: 50px;
   }
 
-  .box {
-      display: inline;
-      align-items: center;
-      justify-content: center;
+.SearchBox form input{
+    width: 500px;
+    height: 40px;
+    margin: 0;
+    border-radius: 20px;
+    border: 1px solid grey;
   }
 
+.SmallBoxes {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+.SmallBoxes a {
+  -moz-appearance: button;
+  background-color: rgb(240, 235, 235);
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(14, 37, 53);
+}
+  
+.SmallBoxes a:hover {
+  border: 1px solid grey;
+}
+
+
+article {
+    text-align: center;
+  }
+
+  footer {
+    background-color: rgba(93, 105, 109, 0.178);
+    margin:0;
+    padding: 0;
+    /* from medium freecodecamp.org */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+     /* https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c */
+    }
+
+  .Country {
+    margin: 0;
+    text-align: left; 
+    border: 1px solid grey;
+    padding: 5px;
+  }
+  
+ div #GoogleSuff01 ul {
+    overflow: hidden;
+    list-style-type: none;
+    /* https://wearefieldtrip.com/journal/css-horizontal-navigation-bar/ */
+    margin: 0;
+    padding: 0;  
+  }
+
+  div #GoogleSuff01 ul li .left {
+    float: left;
+    margin: 10px 0 0 0;
+    
+  }
+
+  /* to use -webkit-flex-direction: row-reverse  */
+  /* https://www.w3schools.com/cssref/pr_class_display.asp */
+  div #GoogleSuff01 ul li .right {
+    float: right;
+    margin: 10px 0 0 0;
+  }
+
+  div #GoogleSuff01 ul li .left a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: rgb(14, 37, 53);
+  }
+
+  div #GoogleSuff01 ul li a:hover {
+    text-decoration: underline;
+  }
