@@ -39,3 +39,34 @@ Tu rama está adelantada a 'origin/master' por 1 commit.
   (usa "git push" para publicar tus commits locales)
 
 nada para hacer commit, el árbol de trabajo está limpio
+
+-----------
+
+IF you need to import the files from the remote Repository in GitHub, then 
+1. type git pull -v
+-v shows the descriptions of what are happening
+This goes to Step 2.
+
+1a. IF you want to skip Step 2, 
+type git pull --no-edit
+
+I obtained the info from this link:
+https://stackoverflow.com/questions/34526346/git-pull-asks-me-to-write-merge-message
+
+2. depending on your Terminal, I use Mac OS Mojave
+I must populate Comments before proceeding.
+
+2a. to populate Comments
+
+    press "i"
+    write your merge message
+    press "esc"
+    write ":wq"
+    then press enter
+
+
+I obtained the info from this link:
+https://stackoverflow.com/questions/19085807/please-enter-a-commit-message-to-explain-why-this-merge-is-necessary-especially
+
+3. DONE.
+
