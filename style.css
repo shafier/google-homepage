@@ -13,7 +13,7 @@ main {
 }
 
 section {
-  padding-bottom: 5rem; /* Footer height */
+  padding-bottom: 30px; /* Footer height */
   /* https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c */
 }
 
@@ -93,6 +93,15 @@ article {
     text-align: center;
   }
 
+article a {
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
   footer {
     background-color: rgba(93, 105, 109, 0.178);
     margin:0;
@@ -101,7 +110,7 @@ article {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 5rem;
+    height: 60px;
      /* https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c */
     }
 
@@ -110,35 +119,45 @@ article {
     text-align: left; 
     border: 1px solid grey;
     padding: 5px;
+    color: rgb(124, 129, 133);
   }
-  
- div #GoogleSuff01 ul {
+
+  #GoogleSuff01 {
     overflow: hidden;
     list-style-type: none;
     /* https://wearefieldtrip.com/journal/css-horizontal-navigation-bar/ */
     margin: 0;
-    padding: 0;  
+    padding: 0;   
+    border: 1px solid grey;
   }
 
-  div #GoogleSuff01 ul li .left {
-    float: left;
-    margin: 10px 0 0 0;
-    
+  #GoogleSuff01 .left {
+    float:left; 
+    padding: 5px;
   }
 
-  /* to use -webkit-flex-direction: row-reverse  */
-  /* https://www.w3schools.com/cssref/pr_class_display.asp */
-  div #GoogleSuff01 ul li .right {
+  #GoogleSuff01 .right {
     float: right;
-    margin: 10px 0 0 0;
+    padding: 5px;
   }
-
-  div #GoogleSuff01 ul li .left a {
+  
+  #GoogleSuff01 .left a {
     text-decoration: none;
-    padding: 10px 10px;
-    color: rgb(14, 37, 53);
+    color: rgb(124, 129, 133);
+    font-size: smaller;
   }
 
-  div #GoogleSuff01 ul li a:hover {
+  #GoogleSuff01 .right a {
+    text-decoration: none;
+    color: rgb(124, 129, 133);
+    font-size: smaller;
+  }
+
+  #GoogleStuff01 .left a:hover {
     text-decoration: underline;
   }
+
+  #GoogleSuff01 .right a:hover {
+    text-decoration: underline;
+  } 
+
