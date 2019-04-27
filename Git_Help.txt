@@ -40,7 +40,7 @@ Tu rama está adelantada a 'origin/master' por 1 commit.
 
 nada para hacer commit, el árbol de trabajo está limpio
 
------------
+----------- NEW line ---------------
 
 IF you need to import the files from the remote Repository in GitHub, then 
 1. type git pull -v
@@ -70,3 +70,22 @@ https://stackoverflow.com/questions/19085807/please-enter-a-commit-message-to-ex
 
 3. DONE.
 
+----------- NEW line ---------------
+
+How to contribute to an OPEN source code using Git and GitHub.
+
+Refer to the instructions in the The Odin Project:
+
+https://github.com/TheOdinProject/curriculum/blob/master/contributing.md
+
+Note:
+
+I did this for the first time for the HTML / CSS project EASY part in the Odin Project.
+
+This involves: 
+
+Fork -> Clone -> Push -> Pull.
+
+Fork basically means copy. 
+
+for more info, refer to https://www.youtube.com/watch?v=mENDYhfxH-o.
