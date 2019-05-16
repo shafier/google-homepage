@@ -84,11 +84,32 @@ I did this for the first time for the HTML / CSS project EASY part in the Odin P
 
 This involves: 
 
-Fork -> Clone -> Push -> Pull.
+Fork -> Clone -> Push -> Pull (Pull Request).
 
 Fork basically means copy. 
 
 for more info, refer to https://www.youtube.com/watch?v=mENDYhfxH-o.
+
+some commands:
+git clone git@github.com:shafier/the_repo
+-> the_repo = name of the forked repo
+
+git remote add upstream git@github.com:TheOdinProject/curriculum.git
+-> to add a second remote linking to the Original Remote Repo
+-> easy method is to copy the SSH link
+-> upstream is the convention name
+
+git remote -v
+
+git add -A
+git commit -m ""
+
+git pull upstream master
+-> to compare and merge IF there is a NEW change in the Original Remote Repo 
+vs my copy in my local computer
+
+git pull = git fetch AND git merge
+
 
 DONE.
 
