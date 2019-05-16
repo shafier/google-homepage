@@ -89,3 +89,25 @@ Fork -> Clone -> Push -> Pull.
 Fork basically means copy. 
 
 for more info, refer to https://www.youtube.com/watch?v=mENDYhfxH-o.
+
+DONE.
+
+----------- NEW line ---------------
+
+How to delete a file in BOTH the remote Repo in GitHub AND your local computer
+
+git rm file1.txt
+git commit -m "remove file1.txt"
+git push origin branch_name  
+
+How to delete a file in the remote Repo in GitHub ONLY
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+git push origin branch_name  
+
+refer to: https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-git-repo
+
+DONE.
+
+----------- NEW line ---------------
